@@ -1,0 +1,4 @@
+console.log("Hello World")
+press: ctrl + o
+press: enter
+press: ctrl + x

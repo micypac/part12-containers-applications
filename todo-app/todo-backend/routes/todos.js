@@ -19,6 +19,7 @@ router.post("/", async (req, res) => {
   let todoCount = await getAsync("added_todos");
   todoCount++;
   setAsync("added_todos", todoCount);
+
   res.send(todo);
 });
 

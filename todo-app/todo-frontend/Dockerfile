@@ -8,9 +8,9 @@ RUN npm ci
 
 # FROM base as test
 
-ENV CI=true
+# ENV CI=true
 
-RUN npm run test
+RUN CI=true npm run test
 
 # FROM base as prod
 
